@@ -1,0 +1,130 @@
+*{
+    color:rgb(8, 7, 7);
+
+}
+
+.content{
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+.left-content{
+    flex: 1 0 22%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid rgb(230, 236, 240);
+}
+.left-icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2px;
+    margin: 2px;
+}
+.left-icons p{
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 3px 20px ;
+    margin: 2px;
+
+}
+.left-content img{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile p, h2{
+    margin: 2px 10px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+h2{
+    font-weight: 100;
+}
+.more-content p{
+  background: rgb(46, 152, 201);
+  padding : 10px 70px;
+  margin-top: 12px;
+  border-radius: 30px;
+  font-size: 2rem;
+}
+.right-content{
+    flex: 2 0 31%;
+    height: 100%;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: #fff;
+    border-left: 1px solid rgb(230, 236, 240);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.center-conntent{
+    background: #fff5f5;
+}
+nav{
+    position:sticky;
+    opacity: 1;
+    top: O;
+    background-color: #ffffffe7;
+    z-index: 1;
+    border-bottom: 1.3px solid rgb(230, 236, 240);
+    backdrop-filter: blur(5px);
+    
+}
+
+.nav-content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    
+}
+.name p{
+    margin: 1px;
+}
+.post{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.75rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid  rgb(230, 236, 240);
+}
+
+.profile-pic img{
+    border-radius:50% ;
+    height: 50px;
+    padding: 20px;
+    margin: 24px;
+}
+.name{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.name img{
+    margin-top: 12px;
+    height: 480px;
+    width: 480px;
+}
